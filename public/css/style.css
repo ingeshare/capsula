@@ -1,0 +1,201 @@
+
+header{
+   
+    color: #fff;
+    background-color: rgba(220, 169, 220, 0.700);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    letter-spacing: -2px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+}
+
+
+body {
+    background: url(../images/cosmosBackground.jpg);
+    direction: ltr;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin: 0;
+    padding: 0;
+}
+
+   
+  
+  #full_screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/cosmosBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    
+    /* works with row or column */
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    letter-spacing: -2px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+  }
+  
+  h1:after {
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poiret One', sans-serif;
+    content: 'Are you ready to take off?';
+    font-size: .4em;
+    text-align: center;
+  }
+
+  h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+
+
+  }
+
+
+
+
+
+  #button_logIn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(220, 169, 220);
+    padding: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+ 
+  }
+
+  /*
+  .button-logIn:hover{
+    
+  }
+  .button-logIn:active{
+ 
+  }
+
+*/
+
+
+  #button_test{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.118);
+    padding: 6px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    
+ 
+  }
+
+  #button_fan, #button_water, #button_scent1, #button_scent2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.473);
+    padding: 6px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0.25em;
+  }
+
+
+  /*
+  .button-test:hover{
+    
+  }
+  .button-test:active{
+ 
+  }
+
+  */
+
+
+  #Devices{
+    position: top;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    
+    
+    /* works with row or column */
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+  #audioPlayer{
+    position: bottom;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+
+.table > tbody > tr:hover {
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+
+  
+
+  /*Fin*/
