@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 console.log("Entró a main.js");
 
 //var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
