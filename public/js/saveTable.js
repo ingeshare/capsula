@@ -34,6 +34,7 @@ function fnSaveTableInit(){
 
 
   buttonSave.addEventListener('click', fnButtonSave);
+  console.log("Valor de db desde firebaseConfig.js es:" + db);
 
 
 }
