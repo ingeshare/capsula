@@ -204,5 +204,13 @@ section{
   
 } 
 
+.quickstart-sign-in{
+  background-color: blue;
+}
+
+#quickstart-sign-in{
+  background-color: red;
+}
+
 
   /*Fin*/
