@@ -16,10 +16,7 @@
  // TODO: Add SDKs for Firebase products that you want to use
  // https://firebase.google.com/docs/web/setup#available-libraries
 
-
-
-
- import { getFirestore, collection} from "https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js"
+ import { getFirestore, collection} from "https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js";
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -27,6 +24,8 @@ const analytics = getAnalytics(app);
 
 // Initialize Cloud Firestore and get a reference to the service
   const db = getFirestore(app);
+  sessionStorage.setItem("db",JSON.stringify(second));
+  location.href="saveTable.js";
 
   console.log("Valor de db desde firebaseConfig.js es:" + db);
 

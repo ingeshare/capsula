@@ -1,9 +1,7 @@
 let buttonSave = document.getElementById('button-save');
 
-
-
-
-
+const db = JSON.parse(sessionStorage.getItem("db"));
+console.log("el valor de db en saveTable es:" + db);
 
 
 window.addEventListener('load', fnSaveTableInit);
@@ -34,7 +32,7 @@ function fnSaveTableInit(){
 
 
   buttonSave.addEventListener('click', fnButtonSave);
-  console.log("Valor de db desde firebaseConfig.js es:" + db);
+  console.log("Valor de db desde saveTable.js es:" + db);
 
 
 }
