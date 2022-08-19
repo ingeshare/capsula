@@ -23,9 +23,9 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 // Initialize Cloud Firestore and get a reference to the service
-  const db = getFirestore(app);
-  sessionStorage.setItem("db",JSON.stringify(second));
-  location.href="saveTable.js";
+  var db = getFirestore(app);
+  sessionStorage.setItem("db",JSON.stringify(db));
+  
 
   console.log("Valor de db desde firebaseConfig.js es:" + db);
 

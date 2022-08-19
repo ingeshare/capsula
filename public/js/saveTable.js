@@ -1,14 +1,16 @@
 let buttonSave = document.getElementById('button-save');
 
-const db = JSON.parse(sessionStorage.getItem("db"));
-console.log("el valor de db en saveTable es:" + db);
-
-
 window.addEventListener('load', fnSaveTableInit);
 
 
 function fnButtonSave(){
     alert("alert in button save function");
+
+    console.log(sessionStorage.getItem("db"));
+    console.log(JSON.parse(sessionStorage.getItem("db")));
+    var db = JSON.parse(sessionStorage.getItem("db"));
+    console.log("el valor de db en saveTable es:" + db);
+
 
         // Add a new document in collection "cities"
     db.collection("cities").doc("LA").set({
@@ -32,7 +34,7 @@ function fnSaveTableInit(){
 
 
   buttonSave.addEventListener('click', fnButtonSave);
-  console.log("Valor de db desde saveTable.js es:" + db);
+  
 
 
 }
