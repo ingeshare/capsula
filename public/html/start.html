@@ -5,100 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" href="../css/style.css">
 
     <title>start</title>
 
-  <!-- Import and configure the Firebase SDK -->
-  <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
-  <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-  <script src="/__/firebase/9.9.1/firebase-app-compat.js"></script>
-  <script src="/__/firebase/9.9.1/firebase-auth-compat.js"></script>
-  <script src="/__/firebase/init.js"></script>
-
-  <script src="../js/main.js"></script>
-
-  <script src="../js/auth.js"></script>
-
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-
-  <script src="../js/firebaseConfig.js" type="module"></script>
-
-
-
+  
 
 </head>
-<body>
-
-    <header>
-
-         <!--<button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>-->
-        <button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>
-        <link rel="stylesheet" href="../css/tablaContenido.css">
-    </header>
-      
-    <header>start</header>
-    
-    <section id="audioPlayer">
-        <h2>Player</h2>
 
 
+  <body>
+
+      <header>
+          <!--<button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>-->
+          <button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>
+          <link rel="stylesheet" href="../css/tablaContenido.css">
+      </header>
         
-        <audio controls src="../audio/audio51sample1.wav">Not supported by your browser</audio>
+      <header>start</header>
+      
+      <section id="audioPlayer">
+          <h2>Player</h2>
+
+
+          
+          <audio controls src="../audio/audio51sample1.wav">Not supported by your browser</audio>
+      </section>
+
+      <section>
+
+      <table id="example">
+
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Star date</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Tiger Nixon</td>
+            <td>System Architect</td>
+            <td>Edinburgh</td>
+            <td>61</td>
+            <td>2011/04/25</td>
+            <td>$320,800</td>
+          </tr>
+          <tr>
+            <td>Sergio Alvarez</td>
+            <td>Mechatronic Engineer</td>
+            <td>Colombia</td>
+            <td>80</td>
+            <td>2014/03/27</td>
+            <td>$1,000,000</td>
+          </tr>
+          <tr>
+            <td>Luisa Molina</td>
+            <td>Administrative Engineer</td>
+            <td>Argentina</td>
+            <td>42</td>
+            <td>2018/01/13</td>
+            <td>$500,380</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+      <button id="button-save">SAVE</button>
+
     </section>
 
-    <section>
+      <!-- Import and configure the Firebase SDK -->
+      <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+      <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+      <script src="/__/firebase/9.9.1/firebase-app-compat.js"></script>
+      <script src="/__/firebase/9.9.1/firebase-auth-compat.js"></script>
+      <script src="/__/firebase/init.js"></script> 
 
-    <table id="example">
+      <script src="../js/auth.js"></script>
+      <script src="../js/tablaContenido.js"></script>
 
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Position</th>
-          <th>Office</th>
-          <th>Age</th>
-          <th>Star date</th>
-          <th>Salary</th>
-        </tr>
-      </thead>
-      
-      <tbody>
-        <tr>
-          <td>Tiger Nixon</td>
-          <td>System Architect</td>
-          <td>Edinburgh</td>
-          <td>61</td>
-          <td>2011/04/25</td>
-          <td>$320,800</td>
-        </tr>
-        <tr>
-          <td>Sergio Alvarez</td>
-          <td>Mechatronic Engineer</td>
-          <td>Colombia</td>
-          <td>80</td>
-          <td>2014/03/27</td>
-          <td>$1,000,000</td>
-        </tr>
-        <tr>
-          <td>Luisa Molina</td>
-          <td>Administrative Engineer</td>
-          <td>Argentina</td>
-          <td>42</td>
-          <td>2018/01/13</td>
-          <td>$500,380</td>
-        </tr>
-      </tbody>
+      <script type="module" src="../js/saveTable.js" ></script>
+      <script src="../js/firebaseConfig.js" type="module"></script>
 
-    </table>
-
-    <button id="button-save">SAVE</button>
-
-  </section>
-
-    <script src="../js/tablaContenido.js"></script>
-    <script src="../js/saveTable.js"></script>
-
-</body>
+  </body>
 
 </html>

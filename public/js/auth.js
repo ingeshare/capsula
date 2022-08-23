@@ -60,6 +60,9 @@ window.addEventListener('load', initApp)
             var photoURL = user.photoURL;
             var isAnonymous = user.isAnonymous;
             var uid = user.uid;
+            console.log("El valor de uid en auth es:");
+            console.log(uid);
+            sessionStorage.setItem('uid',uid);
             var providerData = user.providerData;
             //document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
             document.getElementById('quickstart-sign-in').textContent = 'Sign out';
@@ -78,6 +81,12 @@ window.addEventListener('load', initApp)
         });
 
         console.log("Toggle button Sign in");
+
+        
+  
+
+
+        
 
 
   
