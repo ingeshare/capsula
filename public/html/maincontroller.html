@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="../css/style.css">
-
-    <title>start</title>
-
-  
-
+    <link rel="stylesheet" href="../css/tablaContenido.css">
+    <title>Main Controller</title>
 </head>
 
+<body>
 
-  <body>
-
-      <header>
-          <!--<button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>-->
-          <button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>
-          <link rel="stylesheet" href="../css/tablaContenido.css">
+      <header style="display: flex; justify-content: space-between;">
+        <button id="btn-home">&#128640</button>
+        <h1>Main Controller</h1>
+         <!--<button style="float: right;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>  -->
+          <button style="display: flex;" class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>  
       </header>
-        
-      <header>start</header>
       
       <section id="audioPlayer">
           <h2>Player</h2>
@@ -89,10 +84,8 @@
 
       <script src="../js/auth.js"></script>
       <script src="../js/tablaContenido.js"></script>
-
-      <script type="module" src="../js/saveTable.js" ></script>
       <script src="../js/firebaseConfig.js" type="module"></script>
 
-  </body>
+</body>
 
 </html>
